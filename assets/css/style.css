@@ -1,8 +1,11 @@
 * {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
-a{
+a {
     color: black;
 }
 
@@ -15,6 +18,7 @@ body {
     background-color: #CA6262;
     height: 100vh;
     letter-spacing: 2px;
+    background-size: cover;
 }
 
 .text-home {
@@ -23,12 +27,17 @@ body {
     padding-left: 10%;
 }
 
-.navbar {
+.navbar ul{
     padding: 10px 30px 0 0;
+    margin-left: 60%;
     color: black;
-    text-align: right;
+    align-items: right;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
+
 
 .get2 {
     position: absolute;
@@ -85,6 +94,18 @@ body {
     margin-right: 15%;
 }
 
+.skills {
+    position: absolute;
+    left: 10%;
+    top: 114%;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.skills ul{
+    list-style: none;
+}
+
 .aboutme-p {
     text-align: right;
     justify-content: normal;
@@ -97,10 +118,9 @@ body {
     background-color: #C4C4C4;
     opacity: 80%;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     position: absolute;
-    left: 54px;
-    top: 1147px;
+    right: 100%;
 }
 
 .circle-about2 {
@@ -109,10 +129,9 @@ body {
     background-color: #C4C4C4;
     opacity: 80%;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     position: absolute;
-    left: 459px;
-    top: 1249px;
+    left: 100%;
 }
 
 .circle-about3 {
@@ -121,10 +140,9 @@ body {
     background-color: #C4C4C4;
     opacity: 80%;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     position: absolute;
-    left: 54px;
-    top: 1375px;
+    right: 100%;
 }
 
 .circle-about4 {
@@ -133,8 +151,53 @@ body {
     background-color: #C4C4C4;
     opacity: 80%;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     position: absolute;
-    left: 459px;
-    top: 1477px;
+    left: 100%;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #EE7474);
+    width: 5%;
+    margin: 100px auto;
+}
+
+.projects {
+    padding: 0 10%;
+}
+
+.projects h1 {
+    padding-bottom: 50px;
+}
+
+.projects ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.p-box1 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #CA6262;
+    opacity: 0.5;
+}
+
+.p-box2 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #CA6262;
+    opacity: 0.5;
+}
+
+.p-box3 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #CA6262;
+    opacity: 0.5;
 }

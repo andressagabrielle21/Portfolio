@@ -13,7 +13,7 @@ body {
     margin: 0px;
 }
 
-.home {
+#home {
     position: relative;
     background-color: #CA6262;
     height: 100vh;
@@ -84,7 +84,7 @@ body {
     left: 21.5%;
 }
 
-.about {
+#about {
     padding-top: 6%;
     line-height: 2rem;
 }
@@ -99,11 +99,19 @@ body {
     left: 10%;
     top: 114%;
     text-align: center;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
 
 .skills ul{
     list-style: none;
+}
+
+.skills img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 25%;
+    right: 30%;
 }
 
 .aboutme-p {
@@ -161,18 +169,18 @@ hr {
     border-width: 5px;
     border-color: #EE7474);
     width: 5%;
-    margin: 100px auto;
+    margin: 90px auto;
 }
 
-.projects {
-    padding: 0 10%;
+#projects {
+    padding: 0 10% 10% 10%;
 }
 
-.projects h1 {
+#projects h1 {
     padding-bottom: 50px;
 }
 
-.projects ul{
+#projects ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -194,10 +202,53 @@ hr {
     opacity: 0.5;
 }
 
-.p-box3 {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
+#footer {
+    position: relative;
     background-color: #CA6262;
-    opacity: 0.5;
+    height: 45vh;
+    letter-spacing: 2px;
+}
+
+#footer h2 {
+    position: absolute;
+    margin-left: 10%;
+    padding-top: 2%;
+    text-align: left;
+}
+
+.list-contact {
+    position: absolute;
+    margin-left: 10%;
+    padding-top: 8%;
+    text-align: left;
+}
+
+.list-contact li {
+    list-style: none;
+}
+
+.vr-footer {
+    position: absolute;
+    border-left:1px solid;
+    color: black;
+    height:200px;
+    top: 18%;
+    left: 50%;
+}
+
+.social-icons{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+.icons {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    line-height: 2rem;
+}
+
+.icons li{
+    list-style: none;
 }
